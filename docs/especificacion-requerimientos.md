@@ -137,7 +137,21 @@ Si el estudiante está inscrito en la tutoría y esta aún no ha comenzado, el s
 ## 4. Gestión de Versiones
 
 ### Ramas utilizadas
-
+-main
+- develop
+- feature/rf01-registro-tutoria
+-feature/rf02-consulta-tutorias
+-feature/rf03-inscripcion-tutoria
+-feature/rf04-cancelacion-inscripcion
 ### Proceso de integración
-
+main
+   ↓
+develop
+   ↓
+feature/*
+   ↓
+develop
+   ↓
+main
 ### Conflictos encontrados
+NINGUNO
